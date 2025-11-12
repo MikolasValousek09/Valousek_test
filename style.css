@@ -1,0 +1,104 @@
+@layer colors {
+    .cv07 {
+        --primary: #9C27B0;
+        --background: #fff;
+        --text-primary: #9C27B0;
+        --text-white: #fff;
+        --text-dark: #333;
+        --text-medium: #666;
+        --border: #e0e0e0;
+      }
+      
+}
+
+
+
+@layer components {
+
+
+    .card {
+        border:auto ;
+        border-radius:1em ;
+        border-color:var(--primary) ;
+        background-color:var(--background) ;
+
+    }
+    
+    
+    .card__title {
+        font-size:1em ;
+        font-family: ;
+        font-weight: 500 ;
+        color: var(--border);
+        text-align: center;
+        margin-bottom:3em ;
+    }
+
+
+    .card__subtitle {
+        font-size:1.5em ;
+        font-family: ;
+        font-weight:800 ;
+        color:var(--text-dark) ;
+        text-align: center;
+        margin-bottom:3em ;
+
+
+    }
+
+
+    .card__price {
+        font-size:2em ;
+        font-family: ;
+        font-weight:800 ;
+        color:var(--text-primary) ;
+        text-align: center;
+        margin-bottom:3em ;
+
+
+
+    }
+
+
+    .card__price2 {
+        font-size: ;
+        font-family: ;
+        font-weight: 400 ;
+        color:var(--text-medium) ;
+        text-align: center;
+
+    
+    }
+
+
+    .card__list {
+        font-size:1.5em ;
+        font-family: ;
+        font-weight: ;
+        color:var(--text-dark) ; 
+        text-decoration:;
+        margin-left:0em ;
+        text-align: center;
+
+
+    }
+
+
+    .btn {
+        font-size: ;
+        font-weight: ;
+        color:var(--text-white) ;
+        text-decoration: ;
+        display: block;
+        margin: 0 auto;
+        
+    }
+
+
+
+
+
+
+
+
+}
